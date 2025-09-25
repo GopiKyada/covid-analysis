@@ -6,6 +6,7 @@
 
 ## Steps
 1. Upload dataset to HDFS:
+   
    ```bash
    hdfs dfs -mkdir /covid
    hdfs dfs -put owid-covid-data.csv /covid/
